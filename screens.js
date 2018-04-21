@@ -6,8 +6,20 @@ function resizeMap() {
 		"width": width + "px",
 		"height": height + "px"
 	});
+
+	$("#map").css({
+		"width": width + "px",
+		"height": height + "px"
+	});
+
 }
 
 
-$(document).ready(resizeMap);
+$(document).ready(function() {
+
+	resizeMap();
+	$(".state").hide();
+
+});
+
 $(window).resize(resizeMap);

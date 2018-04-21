@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>US Map Demo</title>
+	<title>FreeIAm</title>
 	
 	<style>
 	  #alert {
@@ -14,30 +14,23 @@
 	  }
 	</style>
 
+<!-- <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+
+
+ -->
+ <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|IBM+Plex+Serif|PT+Mono" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	
-	<script src="lib/raphael.js"></script>
-	<!-- <script src="scale.raphael.js"></script> -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
-	<script src="color.jquery.js"></script>
-	<script src="jquery.usmap.js"></script>
-	<script src="screens.js"></script>
-	
-	<script>
-	$(document).ready(function() {
-	  $('#map').usmap({
-	    'click' : function(event, data) {
-	      $('#alert')
-	        .text('Click '+data.name+' on map 1')
-	        .stop()
-	        .css('backgroundColor', '#ff0')
-	        .animate({backgroundColor: '#ddd'}, 1000);
-	    }
-	  });
-	});
-	</script>
 </head>
 <body>
+
+	<header>
+		<h1 class="main-header">FreeIAm</h1>
+		<h2 class="main-subheader">Freedom of Information Act Map</h2>
+	</header>
 
 	<main class="main-content">
 		
@@ -47,260 +40,311 @@
 
 		<div class="states-info">
 			
-			<h2 class="state-info">Alabama</h2>
+			<div class="state">
+				<h3 id="AL" class="state-header">Alabama</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Alabama</p>
+			</div>
 
+			<div class="state">
+				<h3 id="AK" class="state-header">Alaska</h3>
 
-			<h2 class="state-info">Alaska</h2>
+				<p class="state-info-p">This is information about the state of Alaska</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="AZ" class="state-header">Arizona</h3>
 
+				<p class="state-info-p">This is information about the state of Arizona</p>
+			</div>
 
-			<h2 class="state-info">Arizona</h2>
+			<div class="state">
+				<h3 id="AR" class="state-header">Arkansas</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Arkansas</p>
+			</div>
 
+			<div class="state">
+				<h3 id="CA" class="state-header">California</h3>
 
-			<h2 class="state-info">Arkansas</h2>
+				<p class="state-info-p">This is information about the state of California</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="CO" class="state-header">Colorado</h3>
 
+				<p class="state-info-p">This is information about the state of Colorado</p>
+			</div>
 
-			<h2 class="state-info">California</h2>
+			<div class="state">
+				<h3 id="CT" class="state-header">Connecticut</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Connecticut</p>
+			</div>
 
+			<div class="state">
+				<h3 id="DE" class="state-header">Delaware</h3>
 
-			<h2 class="state-info">Colorado</h2>
+				<p class="state-info-p">This is information about the state of Delaware</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="DC" class="state-header">D.C.</h3>
 
+				<p class="state-info-p">This is information about the District of Columbia</p>
+			</div>
 
-			<h2 class="state-info">Connecticut</h2>
+			<div class="state">
+				<h3 id="FL" class="state-header">Florida</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Florida</p>
+			</div>
 
+			<div class="state">
+				<h3 id="GA" class="state-header">Georgia</h3>
 
-			<h2 class="state-info">Delaware</h2>
+				<p class="state-info-p">This is information about the state of Georgia</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="HI" class="state-header">Hawaii</h3>
 
+				<p class="state-info-p">This is information about the state of Hawaii</p>
+			</div>
 
-			<h2 class="state-info">D.C.</h2>
+			<div class="state">
+				<h3 id="ID" class="state-header">Idaho</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Idaho</p>
+			</div>
 
+			<div class="state">
+				<h3 id="IL" class="state-header">Illinois</h3>
 
-			<h2 class="state-info">Florida</h2>
+				<p class="state-info-p">This is information about the state of Illinois</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="IN" class="state-header">Indiana</h3>
 
+				<p class="state-info-p">This is information about the state of Indiana</p>
+			</div>
 
-			<h2 class="state-info">Georgia</h2>
+			<div class="state">
+				<h3 id="IA" class="state-header">Iowa</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Iowa</p>
+			</div>
 
+			<div class="state">
+				<h3 id="KS" class="state-header">Kansas</h3>
 
-			<h2 class="state-info">Hawaii</h2>
+				<p class="state-info-p">This is information about the state of Kansas</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="KY" class="state-header">Kentucky</h3>
 
+				<p class="state-info-p">This is information about the state of Kentucky</p>
+			</div>
 
-			<h2 class="state-info">Idaho</h2>
+			<div class="state">
+				<h3 id="LA" class="state-header">Louisiana</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Louisiana</p>
+			</div>
 
+			<div class="state">
+				<h3 id="ME" class="state-header">Maine</h3>
 
-			<h2 class="state-info">Illinois</h2>
+				<p class="state-info-p">This is information about the state of Maine</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="MD" class="state-header">Maryland</h3>
 
+				<p class="state-info-p">This is information about the state of Maryland</p>
+			</div>
 
-			<h2 class="state-info">Indiana</h2>
+			<div class="state">
+				<h3 id="MA" class="state-header">Massachusetts</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Massachusetts</p>
+			</div>
 
+			<div class="state">
+				<h3 id="MI" class="state-header">Michigan</h3>
 
-			<h2 class="state-info">Iowa</h2>
+				<p class="state-info-p">This is information about the state of Michigan</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="MN" class="state-header">Minnesota</h3>
 
+				<p class="state-info-p">This is information about the state of Minnesota</p>
+			</div>
 
-			<h2 class="state-info">Kansas</h2>
+			<div class="state">
+				<h3 id="MS" class="state-header">Mississippi</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Mississippi</p>
+			</div>
 
+			<div class="state">
+				<h3 id="MO" class="state-header">Missouri</h3>
 
-			<h2 class="state-info">Kentucky</h2>
+				<p class="state-info-p">This is information about the state of Missouri</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="MT" class="state-header">Montana</h3>
 
+				<p class="state-info-p">This is information about the state of Montana</p>
+			</div>
 
-			<h2 class="state-info">Louisiana</h2>
+			<div class="state">
+				<h3 id="NE" class="state-header">Nebraska</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Nebraska</p>
+			</div>
 
+			<div class="state">
+				<h3 id="NV" class="state-header">Nevada</h3>
 
-			<h2 class="state-info">Maine</h2>
+				<p class="state-info-p">This is information about the state of Nevada</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="NH" class="state-header">New Hampshire</h3>
 
+				<p class="state-info-p">This is information about the state of New Hampshire</p>
+			</div>
 
-			<h2 class="state-info">Maryland</h2>
+			<div class="state">
+				<h3 id="NJ" class="state-header">New Jersey</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of New Jersey</p>
+			</div>
 
+			<div class="state">
+				<h3 id="NM" class="state-header">New Mexico</h3>
 
-			<h2 class="state-info">Massachusetts</h2>
+				<p class="state-info-p">This is information about the state of New Mexico</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="NY" class="state-header">New York</h3>
 
+				<p class="state-info-p">This is information about the state of New York</p>
+			</div>
 
-			<h2 class="state-info">Michigan</h2>
+			<div class="state">
+				<h3 id="NC" class="state-header">North Carolina</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of North Carolina</p>
+			</div>
 
+			<div class="state">
+				<h3 id="ND" class="state-header">North Dakota</h3>
 
-			<h2 class="state-info">Minnesota</h2>
+				<p class="state-info-p">This is information about the state of North Dakota</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="OH" class="state-header">Ohio</h3>
 
+				<p class="state-info-p">This is information about the state of Ohio</p>
+			</div>
 
-			<h2 class="state-info">Mississippi</h2>
+			<div class="state">
+				<h3 id="OK" class="state-header">Oklahoma</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Oklahoma</p>
+			</div>
 
+			<div class="state">
+				<h3 id="OR" class="state-header">Oregon</h3>
 
-			<h2 class="state-info">Missouri</h2>
+				<p class="state-info-p">This is information about the state of Oregon</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="PA" class="state-header">Pennsylvania</h3>
 
+				<p class="state-info-p">This is information about the state of Pennsylvania</p>
+			</div>
 
-			<h2 class="state-info">Montana</h2>
+			<div class="state">
+				<h3 id="RI" class="state-header">Rhode Island</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Rhode Island</p>
+			</div>
 
+			<div class="state">
+				<h3 id="SC" class="state-header">South Carolina</h3>
 
-			<h2 class="state-info">Nebraska</h2>
+				<p class="state-info-p">This is information about the state of South Carolina</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="SD" class="state-header">South Dakota</h3>
 
+				<p class="state-info-p">This is information about the state of South Dakota</p>
+			</div>
 
-			<h2 class="state-info">Nevada</h2>
+			<div class="state">
+				<h3 id="TN" class="state-header">Tennessee</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Tennessee</p>
+			</div>
 
+			<div class="state">
+				<h3 id="TX" class="state-header">Texas</h3>
 
-			<h2 class="state-info">New Hampshire</h2>
+				<p class="state-info-p">This is information about the state of Texas</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="UT" class="state-header">Utah</h3>
 
+				<p class="state-info-p">This is information about the state of Utah</p>
+			</div>
 
-			<h2 class="state-info">New Jersey</h2>
+			<div class="state">
+				<h3 id="VT" class="state-header">Vermont</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of Vermont</p>
+			</div>
 
+			<div class="state">
+				<h3 id="VA" class="state-header">Virginia</h3>
 
-			<h2 class="state-info">New Mexico</h2>
+				<p class="state-info-p">This is information about the state of Virginia</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="WA" class="state-header">Washington</h3>
 
+				<p class="state-info-p">This is information about the state of Washington</p>
+			</div>
 
-			<h2 class="state-info">New York</h2>
+			<div class="state">
+				<h3 id="WV" class="state-header">West Virginia</h3>
 
-			<p class="state-info-p">This is information about the state of _</p>
+				<p class="state-info-p">This is information about the state of West Virginia</p>
+			</div>
 
+			<div class="state">
+				<h3 id="WI" class="state-header">Wisconsin</h3>
 
-			<h2 class="state-info">North Carolina</h2>
+				<p class="state-info-p">This is information about the state of Wisconsin</p>
+			</div>
 
-			<p class="state-info-p">This is information about the state of _</p>
+			<div class="state">
+				<h3 id="WY" class="state-header">Wyoming</h3>
 
-
-			<h2 class="state-info">North Dakota</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Ohio</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Oklahoma</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Oregon</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Pennsylvania</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Rhode Island</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">South Carolina</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">South Dakota</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Tennessee</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Texas</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Utah</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Vermont</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Virginia</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Washington</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">West Virginia</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Wisconsin</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
-
-			<h2 class="state-info">Wyoming</h2>
-
-			<p class="state-info-p">This is information about the state of _</p>
-
+				<p class="state-info-p">This is information about the state of Wyoming</p>
+			</div>
 		</div>
 
 
@@ -308,6 +352,32 @@
 
 	</main>
   
+  <footer>
+  	
+  </footer>
   
+	<script src="lib/raphael.js"></script>
+	<!-- <script src="scale.raphael.js"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+	<script src="color.jquery.js"></script>
+	<script src="jquery.usmap.js"></script>
+	<script src="screens.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+		  $('#map').usmap({
+		    'click' : function(event, data) {
+		      $(".state").hide();
+		      $(".state > #" + data.name).parent().show();
+		      $(".state > #" + data.name).parent().css({"opacity": 0});
+	        $(".state > #" + data.name).parent().animate({opacity: 1}, 1000);
+	        location.hash = "#" + data.name
+		    }
+		  });
+		});
+
+
+	</script>
+
 </body>
 </html>
