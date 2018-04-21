@@ -31,7 +31,7 @@ foiInfo = {
 		address3: "Pine Bluff, AR 71611-8707",
 		address4: "",
 		law: "Arkansas Freedom of Information Act § 25-19-101 et seq.",
-		otherText: ""	
+		otherText: "The Arkansas Freedom of Information Act requires a response within three business days.  If access to the records I am requesting will take longer, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	CA: {
 		address1: "Office of Legal Affairs",
@@ -39,7 +39,7 @@ foiInfo = {
 		address3: "Sacramento, CA 94283-001",
 		address4: "",
 		law: "Calif. Public Records Act: Gov't Code  §6250-6268",
-		otherText: ""	
+		otherText: "The California Public Records Act requires a response within ten business days.  If access to the records I am requesting will take longer, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	CO: {
 		address1: "Public Information Officer",
@@ -47,7 +47,7 @@ foiInfo = {
 		address3: "2862 S. Circle Drive",
 		address4: "Colorado Springs, CO 80906",
 		law: "Colorado Open Records Act § 24-72-201 C.R.S.",
-		otherText: ""	
+		otherText: "If you know that you want copies, add the following] I ask that records available in electronic format be transmitted by email to [Your Email Address]. If you deny any portion, or all, of this request, please provide me with a written explanation of the reason(s) for your denial, including a citation to each specific statutory exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law. If you conclude that portions of the records that I request are exempt from disclosure, please release the remainder of such records for inspection and copying, redacting only the portion or portions that you claim are exempt."	
 	},
 	CT: {
 		address1: "Freedom of Information Unit",
@@ -55,10 +55,10 @@ foiInfo = {
 		address3: "24 Wolcott Hill Road",
 		address4: "Wethersfield, Conneticut 06109",
 		law: "Connecticut General Statute § 1-200 et seq.",
-		otherText: ""	
+		otherText: "The Connecticut Freedom of Information Act requires a response within four business days.  If access to the records I am requesting will take longer, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	DC: {
-
+		form: "https://foia-dc.gov/App/Index.aspx"
 	},
 	DE: {
 		address1: "",
@@ -75,7 +75,7 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "Article I, section 24 of the Florida Constitution, and chapter 119, F.S",
-		otherText: "",
+		otherText: "Should you deny my request, or any part of the request, please state in writing the basis for the denial, including the exact statutory citation authorizing the denial as required by s. 119.07(1)(d), F.S. I will contact your office within one week to discuss when I may expect fulfillment of my request, and payment of any statutorily prescribed fees.",
 		email: "co.publicrecords@fdc.myflorida.com"
 	},
 	GA: {
@@ -84,7 +84,7 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "Georgia Open Records Act §50-18-70",
-		otherText: "",
+		otherText: "The Georgia Open Records Act requires a response time within three business days.  If access to the records I am requesting will take longer than three days, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law.",
 		email: "open.records@gdc.ga.gov"
 	},
 	HI: {
@@ -93,7 +93,7 @@ foiInfo = {
 		address3: "Honolulu Hawaii 96814",
 		address4: "",
 		law: "Hawaii Sunshine Law Haw. Rev. Stat. §92.1 et seq.",
-		otherText: ""	
+		otherText: "The Hawaii Open Records Law requires a response time within ten business days.  If access to the records I am requesting will take longer than ten days, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	ID: {
 		address1: "",
@@ -101,7 +101,7 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "Idaho Public Records Act § 74-101 et seq.",
-		otherText: "",
+		otherText: "The Idaho Public Records Act requires a response time within three business days.  If access to the records I am requesting will take longer than three days, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law.",
 		email: "publicrecord@idoc.idaho.gov"
 	},
 	IL: {
@@ -110,7 +110,7 @@ foiInfo = {
 		address3: "PO Box 19277",
 		address4: "Springfield, IL 62794-9277",
 		law: "Freedom of Information Act 5 ILCS 140/1 et seq.",
-		otherText: ""	
+		otherText: "I look forward to hearing from you in writing within five working days, as required by the Act 5 ILCS 140(3).  Thank you for considering and responding to this request."	
 	},
 	IN: {
 		address1: "Records Division",
@@ -118,7 +118,7 @@ foiInfo = {
 		address3: "302 W. Washington Street, Room E-334",
 		address4: "Indianapolis, IN 46204",
 		law: "Indiana Access to Public Records Act § 5-14-3-1 et seq.",
-		otherText: ""	
+		otherText: "The Indiana Access to Public Records Act requires a response time within seven business days.  If access to the records I am requesting will take longer than seven days, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	IA: {
 		address1: "Director, Iowa Department of Corrections",
@@ -126,7 +126,7 @@ foiInfo = {
 		address3: "510 East 12th street",
 		address4: "Des Moines, IA 50319",
 		law: "Iowa Open Records Law Iowa code §22.1 et seq.",
-		otherText: ""	
+		otherText: "The Iowa Open Records Law requires a response time within ten to twenty business days.  If access to the records I am requesting will take longer than that time period, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	KS: {
 		address1: "Todd Fertig, Communications Director",
@@ -134,7 +134,7 @@ foiInfo = {
 		address3: "S.W. Jackson, Suite. 300",
 		address4: "Topeka, Kansas 66603",
 		law: "Kansas Open Records Act K.S.A. 45-215 through 45-223",
-		otherText: ""	
+		otherText: "The Kansas Open Records Act requires a response time within three business days.  If access to the records I am requesting will take longer than that time period, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	KY: {
 		address1: "Open Records Request Coordinator",
@@ -142,7 +142,7 @@ foiInfo = {
 		address3: "Frankfort, Kentucky 40602",
 		address4: "",
 		law: "Kentucky Open Records Law KRS 61. 870 (2) et seq.",
-		otherText: ""	
+		otherText: "The Kentucky Open Records Act requires a response time within three business days.  If access to the records I am requesting will take longer than that time period, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	LA: {
 		address1: "Louisiana Department of Public Safety and Corrections",
@@ -150,7 +150,7 @@ foiInfo = {
 		address3: "P.O. Box 94304",
 		address4: "Baton Rouge, LA 70804",
 		law: "La.R.S. 44:1 et seq.",
-		otherText: ""	
+		otherText: "Section 44:32(D) of the Louisiana Public Records Act requires a response within three business days.  If access to the records I am requesting will take longer than that time period, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	ME: {
 		address1: "Maine Department of Corrections Central Office",
@@ -158,7 +158,7 @@ foiInfo = {
 		address3: "State House Station 111",
 		address4: "",
 		law: "Maine Freedom of Access Act § 402 et seq.",
-		otherText: ""	
+		otherText: "If you intend to deny this request, I will expect to hear from you within the five business days mandated by law.  Also, if you expect a significant delay in responding to this request, please contact me with information about when I might expect copies or the ability to inspect the requested records."	
 	},
 	MD: {
 		address1: "Renata Seergae",
@@ -166,7 +166,7 @@ foiInfo = {
 		address3: "300 E. Joppa Road Suite 1000",
 		address4: "Townson, Maryland 21286-3020",
 		law: "Maryland Public Information Act §§ 10-611 et seq.",
-		otherText: ""	
+		otherText: "The Maryland Public Information Act requires a response to this request within 30 days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	MA: {
 		address1: "",
@@ -183,7 +183,7 @@ foiInfo = {
 		address3: "P.O. Box 30003",
 		address4: "Lansing, MI 48909",
 		law: "Michigan Freedom of Information Act, Act 442 of 1976, M.C.L. § 15.231 et seq.",
-		otherText: ""	
+		otherText: "The Michigan Freedom of Information Act requires a response to this request within five days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	MN: {
 		address1: "",
@@ -200,7 +200,7 @@ foiInfo = {
 		address3: "Jackson, MS 39225",
 		address4: "",
 		law: "Mississippi Public Records Act 25-61-1 et seq.",
-		otherText: ""	
+		otherText: "The law requires that you respond to this request within between one and 14 days, depending upon your department's established policy.  If you expect a significant delay in responding to this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	MO: {
 		address1: "5 South Last Chance Gulch Street",
@@ -216,7 +216,7 @@ foiInfo = {
 		address3: "P.O. Box 180",
 		address4: "Jefferson City, MO 65102",
 		law: "Sunshine Law, Mo. Rev. Stat §610.010-.035",
-		otherText: ""	
+		otherText: "If access to the records I am requesting will take longer than a ‘reasonable’ amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	NE: {
 		address1: "Attn: Dawn-Renee Smith",
@@ -224,7 +224,7 @@ foiInfo = {
 		address3: "PO Box 94661",
 		address4: "Lincoln, NE 68509-4661",
 		law: "Nebraska Public Records Statutes §§ 84-712 through 84-712.09",
-		otherText: ""	
+		otherText: "The Nebraska Public Records Law requires a response time of four business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."
 	},
 	NV: {
 		address1: "Attn.: Family & Community services",
@@ -232,7 +232,7 @@ foiInfo = {
 		address3: "P.O. Box 7011",
 		address4: "Carson City, Nevada 89702",
 		law: "Nevada Open Records Act § 239 et seq.",
-		otherText: ""	
+		otherText: "If access to the records I am requesting will take longer than a ‘reasonable’ amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records.If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	NH: {
 		address1: "Jeffrey J. Lyons, Public Information Officer",
@@ -240,7 +240,7 @@ foiInfo = {
 		address3: "105 Pleasant Street",
 		address4: "Concord, NH 03302-1806",
 		law: "Right-to-know Law RSA 91-A",
-		otherText: ""	
+		otherText: "The New Hampshire Right to Know Law requires a response time of five business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records.If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	NJ: {
 		address1: "",
@@ -257,15 +257,16 @@ foiInfo = {
 		address3: "PO Box 27116",
 		address4: "Santa Fe, NM 87502-0116",
 		law: "New Mexico Inspection of Public Record Act, 14-2-1 NMSA 1978 et seq.",
-		otherText: ""	
+		otherText: "The New Mexico Inspection of Public Records Act requires a response time of no less than three business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	NY: {
-		address1: "FOIL Unit, Office of Counsel NYS Department of Corrections and Community Supervision",
-		address2: "Building 2",
-		address3: "1220 Washington Ave",
-		address4: "Albany, New York 12226-2050",
+		address1: "",
+		address2: "",
+		address3: "",
+		address4: "",
 		law: "New York Freedom of Information law, N.Y. Pub. Off. Law § 84 et seq.",
-		otherText: ""	
+		otherText: "",
+		form: "http://www.doccs.ny.gov/DOCCSwebfoilform.aspx"
 	},
 	NC: {
 		address1: "Division of Prisons",
@@ -273,7 +274,7 @@ foiInfo = {
 		address3: "4260 Mail Service Center",
 		address4: "Raleigh, NC 27699-4260",
 		law: "North Carolina Public Records Law, G.S. §132-1",
-		otherText: ""	
+		otherText: "The law requires that you respond to and fulfill this request 'as promptly as possible.'  If you expect a significant delay in responding to and fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	ND: {
 		address1: "Heather Kitzan, Grants and Procurement Officer II",
@@ -281,7 +282,7 @@ foiInfo = {
 		address3: "3100 E Railroad Avenue, PO Box 1898",
 		address4: "Bismarck, ND 58502-1898",
 		law: "North Dakota Open Records Statute, N.D.C.C. §44-04-18 et seq.",
-		otherText: ""	
+		otherText: "I would request a prompt response to this request.  If you expect a significant delay in responding to or in fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	OH: {
 		address1: "",
@@ -289,7 +290,7 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "Ohio Public Record act § 149.43 et seq.",
-		otherText: "",
+		otherText: "I would request a prompt response to this request.  If you expect a significant delay in responding to or in fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law.",
 		email: "trevor.Clark@odrc.state.oh.us"
 	},
 	OK: {
@@ -298,7 +299,7 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "",
-		otherText: "",
+		otherText: "I would request a prompt response to this request.  If you expect a significant delay in responding to or in fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law.",
 		form: "https://www.ok.gov/doc/documents/Data_Request_Form.pdf"
 	},
 	OR: {
@@ -307,7 +308,7 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "Oregon Public Records Law, §192.410 et seq.",
-		otherText: "",
+		otherText: "I would request a prompt response to this request.  If you expect a significant delay in responding to or in fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law.",
 		email: "melissa.d.nofzinger@doc.state.or.us"
 	},
 	PA: {
@@ -316,16 +317,17 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "Pennsylvania Right-To-Know law, 65 P.S. § 67.101 et seq.",
-		otherText: "",
+		otherText: "The Pennsylvania Right to Know Law requires a response time within five business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records.If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law.",
 		email: "RA-docrighttoknow@pa.gov"
 	},
 	RI: {
-		address1: "RI Department of Corrections",
-		address2: "Office of Legal Counsel",
-		address3: "40 Howard Ave.",
-		address4: "Cranston, RI 02920",
+		address1: "",
+		address2: "",
+		address3: "",
+		address4: "",
 		law: "Rhode Island Access to Public Records Act § 38-2-3",
-		otherText: ""	
+		otherText: "",
+		form: "http://www.transparency.ri.gov/apra/index.php"	
 	},
 	SC: {
 		address1: "FOIA Coordinator, Office of General Counsel",
@@ -333,7 +335,7 @@ foiInfo = {
 		address3: "Post Office Box 21787",
 		address4: "Columbia, SC 29221-1787",
 		law: "South Carolina Freedom of Information Act, S.C. Code Ann § 30-4-10 et seq.",
-		otherText: ""	
+		otherText: "The South Carolina Freedom of Information Act requires a response time within 15 business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	SD: {
 		address1: "FOIA Coordinator, South Dakota Department of Corrections",
@@ -341,7 +343,7 @@ foiInfo = {
 		address3: "Capitol Avenue",
 		address4: "Pierre, SD 57501",
 		law: "South Dakota Sunshine Law, S.D.C.L. 1-27-1 et seq.",
-		otherText: ""	
+		otherText: "If access to the records I am requesting will take longer than a ‘reasonable’ amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	TN: {
 		address1: "Tennessee Department of Correction",
@@ -349,7 +351,7 @@ foiInfo = {
 		address3: "Nashville, Tennessee 37243-0465",
 		address4: "",
 		law: "Tennessee Open Records Act, §10-7-503 et seq.",
-		otherText: ""	
+		otherText: "The Tennessee Open Records Act requires a response time within seven days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	TX: {
 		address1: "Open Records Act Coordinator",
@@ -357,7 +359,7 @@ foiInfo = {
 		address3: "P.O. Box 99",
 		address4: "Huntsville, TX 77342-0099",
 		law: "Texas Public Information Act Chapter 552.001 et. seq.",
-		otherText: ""	
+		otherText: "The Texas Public Information Act requires that you 'promptly produce' the requested records unless, within 10 days, you have sought an Attorney General's Opinion.  If you expect a significant delay in responding to this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	UT: {
 		address1: "14717 Minuteman Drive",
@@ -365,7 +367,7 @@ foiInfo = {
 		address3: "",
 		address4: "",
 		law: "Utah Government Records Access and Management Act, §63-2-101 et seq.",
-		otherText: ""	
+		otherText: "The Utah Government Records Access and Management Act requires that public records responses be made within at least 10 business days if the records are for individual purposes or within five business days if the record is meant to benefit the general public.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	VT: {
 		address1: "David Turner, Public Records Officer",
@@ -373,7 +375,7 @@ foiInfo = {
 		address3: "NOB 2 South 280 State Drive",
 		address4: "Waterbury, VT 05671-2000",
 		law: "Statute V.S.A. §§ 315-320",
-		otherText: ""	
+		otherText: "The law requires a response to this request within 2 days, or within 10 days for extraordinary circumstances.  If you expect a significant delay in fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	VA: {
 		address1: "Central Criminal Records Manager, Virginia Department of Corrections",
@@ -381,7 +383,7 @@ foiInfo = {
 		address3: "6900 Atmore Drive",
 		address4: "Richmond, Virginia 23261",
 		law: "Freedom of Information Act, § 2.2-3700 et seq.",
-		otherText: ""	
+		otherText: "The Virginia Freedom of Information Act requires a response to this request be made within five business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	WA: {
 		address1: "Department of Corrections",
@@ -389,7 +391,7 @@ foiInfo = {
 		address3: "P.O. Box 41118",
 		address4: "Olympia, WA 98504-1118",
 		law: "Washington Public Records Act, §42.56 et seq.",
-		otherText: ""	
+		otherText: "The Washington Public Records Act requires a response to this request be made within five business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	WV: {
 		address1: "FOIA Coordinator",
@@ -397,7 +399,7 @@ foiInfo = {
 		address3: "1409 Greenbrier Street",
 		address4: "Charleston, WV 25311",
 		law: "West Virginia Freedom of Information Act W. Va. Code § 29B-1-1 et seq.",
-		otherText: ""	
+		otherText: "The West Virginia Freedom of Information Act requires a response to this request be made within five business days.  If access to the records I am requesting will take longer than this amount of time, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	WI: {
 		address1: "FOIA Coordinator",
@@ -405,7 +407,7 @@ foiInfo = {
 		address3: "3099 E. Washington Ave.",
 		address4: "P.O. Box 7925, Madison, WI 53717-7925",
 		law: "Wisconsin Public Records Law, § 19.31 et seq.",
-		otherText: ""	
+		otherText: "I would request a response in writing, within the 5 days described by law, if you intend to deny this request.  Also, if you expect a significant delay in fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."	
 	},
 	WY: {
 		address1: "Mr. Robert O. Lampert, Wyoming Department of Corrections",
@@ -413,7 +415,7 @@ foiInfo = {
 		address3: "1934 Wyott Drive",
 		address4: "Cheyenne, WY 82002-3427",
 		law: "Wyo. Stat. § 16-4-201 et seq.",
-		otherText: ""
+		otherText: "I would request a prompt response to this request.  If you expect a significant delay in responding to or in fulfilling this request, please contact me with information about when I might expect copies or the ability to inspect the requested records. If you deny any or all of this request, please cite each specific exemption you feel justifies the refusal to release the information and notify me of the appeal procedures available to me under the law."
 	}
 };
 
