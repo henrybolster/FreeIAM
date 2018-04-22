@@ -499,7 +499,7 @@ function foiTemplate(state) {
 				 ) 
 
 	printOrCopyButton = state.email 
-		? "<button class='copybutton' onclick='copyThis(\"" + state.key + "\")'>Copy to Clipboard (In Arial Font)</button>"
+		? "<button class='copybutton' onclick='copyThis(\"" + state.key + "\")'>Generate Email</button>"
 			+ "<button class='uncopybutton' onclick='restoreTemplate()'>Back</button>"
 		: "<button class='printbutton' onclick='printThis(\"" + state.key + "\")'>Print</button>"
 		
