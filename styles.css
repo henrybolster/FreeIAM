@@ -2,6 +2,16 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+@media print {
+    header * {display:none;}
+    .map-container * {display:none;}
+    .body-text, .body-text > * {
+    	display: block !important;
+  	}
+}
+
+@page { size: auto;  margin: 0mm; }
+
 .main-header {
 	margin: 20px 0 0 0;
 	padding: 0;
@@ -40,4 +50,9 @@ body {
 
 .state-info-p {
 	width: 80%;
+}
+
+.form-disclaimer {
+	margin-bottom: 40px;
+	color: red;
 }
